@@ -1,6 +1,4 @@
-#a simple app under development 
-
-###this app is planned to be simple article sharing platform like dev.to
+### this app is planned to be simple article sharing platform like dev.to
 
 it has login page and signup page
 
