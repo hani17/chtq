@@ -1,0 +1,185 @@
+/*---------------- body ----------------------*/
+
+body{
+    padding-top: 40px;
+}
+
+/*---------------- Navigation Bar-------------*/
+
+.navbar{
+    background-color: #ffffff;
+    max-height: 40px;
+    border-bottom: solid 1px #d8d8d8;
+}
+
+.navbar-brand{
+    color: #ffffff;
+    border: solid 1px #000000;
+    /* border-radius: 1px; */
+    background-color: #000;
+    padding-top: .5px;
+    padding-bottom: .5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.navbar-brand:hover,
+.navbar-brand:active{
+    color: #ffffff;
+}
+
+.nav-profile-image{
+    height: 30px;
+}
+
+.nav-write-post{
+    color: #29cf89;
+    font-size: 14px;
+    margin-right: 20px;
+    line-height: 2.2;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-write-post:hover
+,.nav-write-post:active{
+    color: #29cf89;
+    font-size: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 2.2;    
+}
+
+.nav-profile-dropdown:hover>.dropdown-menu {
+    display: block;
+}  
+
+.custom-dropdown-menu-right{
+    right: -25px;
+}
+
+.nav-dropdown-menu{
+    margin-top: 0px;
+}
+
+.nav-dropdow-menu-item{
+    color: #4f5458;
+}
+
+.nav-dropdow-menu-item:hover,
+.nav-dropdow-menu-item:active{
+    background-color: #dee6e8;
+    color: #4f5458;
+}
+
+
+/******************** Home ********************/
+
+.home{
+    background-color: #f9f9fa;
+}
+
+.home-container{
+    min-height: 1000px;
+    padding-top: 40px;
+}
+
+/******************** Sidebar ********************/
+
+.home-sidebar{
+    padding-left: 0px;
+}
+
+.sidebar-profile{
+    background-color: #ffffff;
+    height: 110px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 9px #d4dce4;    
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.sidebar-profile-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sidebar-profile-pic{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.sidebar-profile-name{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.sidebar-profile-username{
+    color: #657786;
+    font-size: 15px;
+}
+
+.sidebar-profile-link{
+    font-size: 15px;
+}
+
+/***************** New Page ***********************/
+
+.editor-container{
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+.editor{
+    height: 660px;
+    
+}
+
+.login-title{
+    margin-top: 50px;
+}
+
+.sign_form{
+    margin-top: 25px;
+}
+
+.btn-signup{
+    width: 100%;
+}
+
+.signup_intro{
+    margin-bottom: 24px;
+    line-height: 32px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.main_content{
+    padding-top: 50px;
+}
+
+/* SignUp Error input */
+.error input{
+    border-color: #F14747;
+}
+
+.error input:active,
+.error input:focus{
+    border-color: #F14747;
+}
+
+/* Alert */
+.alert-danger{
+    text-align: center
+}
+
+/*Sign Form*/

@@ -1,0 +1,11 @@
+{{template "base/head" .}}
+
+<div class="container">
+    <div>
+        <h1>Dashboard</h1>
+        <h3>Username : {{if .IsLogged}} {{.LoggedUserName}} {{end}}</h3>
+    </div>
+</div>
+
+
+{{template "base/footer" .}}

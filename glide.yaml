@@ -1,0 +1,17 @@
+package: github.com/hani17/chtq
+import:
+- package: github.com/urfave/cli
+  version: v1.20.0
+- package: gopkg.in/macaron.v1
+  version: v1.2.2
+- package: github.com/go-macaron/binding
+- package: github.com/go-macaron/cache
+- package: github.com/go-macaron/captcha
+- package: github.com/jmoiron/sqlx
+- package: github.com/go-xorm/xorm
+  version: v0.6.3
+- package: github.com/go-macaron/session
+- package: gopkg.in/clog.v1
+  version: v1.1.1
+- package: github.com/go-sql-driver/mysql
+  version: v1.3

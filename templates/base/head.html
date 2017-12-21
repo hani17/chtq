@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">{{if .PageIsNew}}
+    <link rel="stylesheet" href="/css/simplemde.min.css"> {{end}}
+</head>
+
+<body>
+
+
+    <div class="navbar navbar-expand fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">ChtQ</a>
+
+            {{if .IsLogged}}
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-write-post" href="/new">Write a post</a>
+                </li>
+
+                <li class="nav-item">
+                    <div class="dropdown nav-profile-dropdown">
+
+                        <img class="rounded nav-profile-image" data-toggle="dropdown" src="https://www.gravatar.com/avatar/fbf8a00447f06d11836b1cd57ec59fae?s=140&d=retro"
+                            aria-haspopup="false" aria-expanded="false">
+
+                        <div class="dropdown-menu dropdown-menu-right nav-dropdown-menu">
+                            <a class="dropdown-item nav-dropdow-menu-item" href="/{{.LoggedUserName}}">@{{.LoggedUserName}}</a>
+                            <a class="dropdown-item nav-dropdow-menu-item" href="#">Dashboard</a>
+                            <a class="dropdown-item nav-dropdow-menu-item" href="/settings">Settings</a>
+                            <a class="dropdown-item nav-dropdow-menu-item" href="/user/logout">Sign Out</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            {{else}}
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/user/signup">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/user/login">Sign in</a>
+                </li>
+            </ul>
+            {{end}}
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    {{/*
+
+
+</body>
+
+</html>
+*/}}
