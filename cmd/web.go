@@ -83,7 +83,7 @@ func runWeb(ctx *cli.Context) {
 	})
 
 	m.Group("/:username", func() {
-		//m.Get("", user.Profile)
+		m.Get("", user.Profile)
 	})
 
 	m.Group("/settings", func() {
