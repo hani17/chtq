@@ -9,11 +9,14 @@ i used glide for dependencies management so you need to install glide first
 then run glide install
 
 i used mysql database
-create new database with name chtq  
+
+create new database with name chtq
 
 run go build
+
 ./chtq web
 
 go to localhost:4000
+
 
 
